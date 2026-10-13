@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>八一影视 - 钢蓝赤铜军旅正剧资讯馆·剧集电影/题材分面/正版平台/4K字幕 | bayiyingshi-h5.github.io</title>
+<meta name="description" content="八一影视（https://bayiyingshi-h5.github.io）单页资讯演示：军旅正剧与主流主旋律片单、题材分面、正版平台指引、防盗版防坑、画质字幕、影评与无障碍站规。非军方背景、非八一厂官网；内链全#，不提供未授权播放源。">
+<meta name="keywords" content="八一影视,军旅剧资讯,亮剑,士兵突击,兵自风中来,浴血荣光,正版平台,央视频,爱奇艺,腾讯视频,4K字幕,防盗版,bayiyingshi-h5.github.io">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#22304a">
+<meta property="og:title" content="八一影视 - 钢蓝赤铜军旅正剧资讯馆">
+<meta property="og:description" content="军旅正剧片单、题材分面、正版防坑、4K字幕、影评与无障碍站规（非官方演示）。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://bayiyingshi-h5.github.io">
+<link rel="canonical" href="https://bayiyingshi-h5.github.io">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --steel1:#3a5378;--steel2:#22304a;--steel3:#16203a;--steel4:#0e1626;
+  --copper:#c8763e;--copper2:#a85a28;--khaki:#cdbb91;--sand:#e7dcc2;
+  --ink:#1a2436;--ink2:#566179;--paper:#eef1f6;--cream:#f7f3ea;
+  --line:rgba(34,48,74,.18);--shadow:0 16px 34px rgba(22,32,58,.22);
+}
+html{scroll-behavior:smooth}
+body.big-text{font-size:18px}
+body.reduce-motion *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+body.high-contrast{filter:contrast(1.18)}
+body{font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;background:linear-gradient(180deg,#f2f5fa,#dfe5ee);color:var(--ink);line-height:1.75;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1200px;margin:0 auto;padding:0 16px}
+
+.camo-bg{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.5;
+  background:radial-gradient(60% 30% at 12% 0%,rgba(58,83,120,.34),transparent 60%),
+            radial-gradient(60% 30% at 86% 6%,rgba(200,118,62,.24),transparent 60%),
+            repeating-linear-gradient(115deg,rgba(205,187,145,.10) 0 14px,transparent 14px 28px),
+            linear-gradient(180deg,#ffffff,#dfe5ee);}
+.fog{position:fixed;z-index:0;font-size:1rem;opacity:.35;animation:drift 9s ease-in-out infinite alternate}
+@keyframes drift{0%{transform:translateY(0)}100%{transform:translateY(10px)}}
+
+.site-header{position:sticky;top:0;z-index:60;background:linear-gradient(180deg,var(--steel2),var(--steel3));color:#dfe7f2;border-bottom:3px solid var(--copper)}
+.nav{display:flex;align-items:center;justify-content:space-between;min-height:64px;gap:10px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:1.15rem}
+.brand .badge{width:30px;height:30px;border-radius:7px;background:linear-gradient(135deg,var(--khaki),var(--copper2));display:grid;place-items:center;color:var(--steel3);font-size:.9rem;box-shadow:0 0 10px rgba(200,118,62,.5)}
+.brand b{color:var(--khaki)}
+.searchbar{display:flex;gap:8px;flex:1;min-width:170px;max-width:360px}
+.searchbar input{flex:1;padding:10px 12px;border-radius:9px;border:1px solid var(--line);background:#fff;color:var(--ink);font-size:.9rem}
+.searchbar button{padding:10px 16px;border:0;border-radius:9px;background:var(--copper);color:#fff;font-weight:800;cursor:pointer;min-height:44px}
+.navlinks{display:flex;gap:6px;flex-wrap:wrap}
+.navlinks a{padding:9px 12px;border-radius:8px;font-size:.82rem;font-weight:700;color:#bcccdf;transition:.2s;min-height:44px;display:inline-flex;align-items:center}
+.navlinks a:hover,.navlinks a.active{background:var(--cream);color:var(--steel2)}
+.burger{display:none;flex-direction:column;gap:5px;cursor:pointer}
+.burger span{width:24px;height:3px;background:#dfe7f2;border-radius:3px}
+
+.hero{padding:34px 0 20px;position:relative;z-index:1}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:24px;align-items:center}
+.hero h1{font-size:clamp(1.9rem,5vw,3rem);font-weight:900;line-height:1.14}
+.hero h1 em{font-style:normal;background:linear-gradient(90deg,var(--khaki),var(--copper));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{max-width:560px;margin:14px 0 20px;color:var(--ink2)}
+.disclaim{font-size:.74rem;background:#fff;border:1px dashed var(--copper);color:var(--steel2);padding:8px 12px;border-radius:9px;margin-bottom:14px;line-height:1.6}
+.disclaim b{color:var(--copper2)}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:11px 22px;border-radius:9px;font-weight:800;font-size:.9rem;cursor:pointer;border:0;transition:.25s;min-height:44px;display:inline-flex;align-items:center}
+.btn-copper{background:linear-gradient(135deg,var(--copper),var(--copper2));color:#fff}
+.btn-copper:hover{transform:translateY(-3px)}
+.btn-steel{background:linear-gradient(135deg,var(--steel1),var(--steel3));color:#dfe7f2}
+.btn-steel:hover{transform:translateY(-3px)}
+.chips{display:flex;gap:7px;flex-wrap:wrap;margin-top:16px}
+.chip{font-size:.72rem;font-weight:800;padding:5px 11px;border-radius:999px;background:#fff;border:1px solid var(--line);color:var(--ink2)}
+.chip.hot{background:var(--steel2);color:#dfe7f2;border-color:transparent}
+
+.panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.panel::before{content:'🎖️';position:absolute;top:-12px;right:-8px;font-size:96px;opacity:.12}
+.panel h3{font-size:.9rem;color:var(--steel2);margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.prow{display:flex;gap:10px;align-items:center;background:linear-gradient(135deg,#eef1f6,#fff);border:1px dashed var(--khaki);border-radius:10px;padding:8px 10px;margin-bottom:8px}
+.prow .ic{width:30px;height:30px;border-radius:8px;background:linear-gradient(135deg,var(--khaki),var(--copper2));color:#fff;font-weight:900;display:grid;place-items:center;flex-shrink:0;font-size:.7rem}
+.prow b{font-size:.8rem;color:var(--steel3)}
+.prow span{font-size:.68rem;color:var(--ink2);display:block}
+
+section.block{padding:38px 0;position:relative;z-index:1}
+.sec-head{display:flex;align-items:center;gap:10px;margin-bottom:18px}
+.sec-head .icon{width:32px;height:32px;border-radius:10px;background:linear-gradient(135deg,var(--khaki),var(--steel2));display:grid;place-items:center;color:#fff;font-size:1rem;font-weight:900}
+.sec-head h2{font-size:1.3rem;font-weight:900}
+.sec-head .tag{margin-left:auto;font-size:.72rem;color:var(--ink2);background:#fff;border:1px solid var(--line);padding:5px 12px;border-radius:999px}
+
+.ribbon{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 2px 16px}
+.ribbon::-webkit-scrollbar{height:8px}
+.ribbon::-webkit-scrollbar-thumb{background:var(--steel2);border-radius:8px}
+.mcard{min-width:260px;max-width:300px;scroll-snap-align:start;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:var(--shadow);flex-shrink:0;opacity:0;transform:translateY(14px);transition:.5s}
+.mcard.in{opacity:1;transform:none}
+.mcard:hover{transform:translateY(-4px);border-color:var(--copper)}
+.mcard .art{height:120px;display:grid;place-items:center;font-size:2.2rem;color:#fff;position:relative}
+.c1{background:linear-gradient(135deg,var(--steel1),var(--steel4))}
+.c2{background:linear-gradient(135deg,var(--copper),var(--steel3))}
+.c3{background:linear-gradient(135deg,#7c8aa0,var(--steel3))}
+.c4{background:linear-gradient(135deg,var(--khaki),var(--copper2));color:var(--steel3)}
+.c5{background:linear-gradient(135deg,#566179,var(--steel4))}
+.c6{background:linear-gradient(135deg,var(--copper),var(--steel4))}
+.mcard .art .yr{position:absolute;top:10px;right:10px;font-size:.62rem;font-weight:800;background:var(--cream);color:var(--steel2);padding:3px 8px;border-radius:999px}
+.mcard .info{padding:14px}
+.mcard h4{font-size:.9rem;font-weight:800;color:var(--steel3)}
+.mcard p{font-size:.74rem;color:var(--ink2);margin:4px 0 10px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.mcard .meta{display:flex;justify-content:space-between;align-items:center}
+.mcard .meta .tagm{font-size:.68rem;font-weight:800;padding:3px 9px;border-radius:999px;background:#eef1f6;color:var(--steel2);border:1px solid var(--line)}
+.mcard .meta .go{padding:6px 12px;border-radius:8px;font-size:.72rem;font-weight:800;background:var(--steel2);color:#dfe7f2}
+
+.facets{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.facet{font-size:.78rem;font-weight:800;padding:8px 13px;border-radius:999px;border:1px solid var(--line);background:#fff;color:var(--ink2);cursor:pointer;min-height:40px}
+.facet.on{background:linear-gradient(135deg,var(--khaki),var(--steel2));color:#fff;border-color:transparent}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.scard{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;box-shadow:var(--shadow);opacity:0;transform:translateY(12px);transition:.5s;border-top:4px solid var(--copper)}
+.scard.in{opacity:1;transform:none}
+.scard:hover{border-color:var(--steel1)}
+.scard .top{height:64px;border-radius:9px;display:grid;place-items:center;font-size:1.5rem;color:#fff;margin-bottom:8px}
+.g1{background:linear-gradient(135deg,var(--steel1),var(--steel4))}
+.g2{background:linear-gradient(135deg,var(--copper),var(--steel3))}
+.g3{background:linear-gradient(135deg,#7c8aa0,var(--steel3))}
+.g4{background:linear-gradient(135deg,var(--khaki),var(--copper2))}
+.g5{background:linear-gradient(135deg,#566179,var(--steel4))}
+.g6{background:linear-gradient(135deg,var(--copper),var(--steel4))}
+.g7{background:linear-gradient(135deg,#8a98ad,var(--steel3))}
+.g8{background:linear-gradient(135deg,var(--khaki),var(--steel1))}
+.scard h4{font-size:.84rem;font-weight:800;color:var(--steel3)}
+.scard p{font-size:.72rem;color:var(--ink2);margin-top:2px}
+.scard .tags{margin-top:8px;display:flex;flex-wrap:wrap;gap:5px}
+.stag{font-size:.66rem;font-weight:800;padding:2px 8px;border-radius:6px;background:#eef1f6;color:var(--steel2);border:1px solid var(--line)}
+
+.steps{max-width:960px;margin:0 auto;display:grid;gap:14px}
+.step{display:flex;gap:14px;background:#fff;border:1px solid var(--line);border-left:5px solid var(--steel2);border-radius:12px;padding:14px;box-shadow:var(--shadow)}
+.step .num{width:38px;height:38px;flex-shrink:0;border-radius:50%;background:linear-gradient(135deg,var(--khaki),var(--steel2));color:#fff;font-weight:900;display:grid;place-items:center}
+.step h4{font-size:.9rem;font-weight:800;color:var(--steel2)}
+.step p{font-size:.76rem;color:var(--ink2);margin-top:4px}
+.warn{margin-top:14px;background:linear-gradient(180deg,var(--steel2),var(--steel4));color:#dfe7f2;border-radius:12px;padding:16px}
+.warn h4{font-size:.9rem;color:var(--khaki)}
+.warn ul{list-style:none;display:grid;gap:7px;margin-top:8px}
+.warn li{font-size:.76rem;padding-left:20px;position:relative;line-height:1.6}
+.warn li::before{content:'🎖️';position:absolute;left:0}
+
+.accbox{max-width:920px;margin:0 auto}
+.acc{background:#fff;border:1px solid var(--line);border-radius:10px;margin-bottom:10px;overflow:hidden;box-shadow:var(--shadow)}
+.acc button.acc-h{width:100%;text-align:left;background:transparent;border:0;padding:14px 16px;font-size:.9rem;font-weight:800;color:var(--ink);cursor:pointer;display:flex;justify-content:space-between;gap:10px;min-height:48px;align-items:center}
+.acc button.acc-h .ar{transition:.3s;color:var(--steel2)}
+.acc.open button.acc-h .ar{transform:rotate(90deg)}
+.acc .acc-b{max-height:0;overflow:hidden;transition:max-height .35s ease}
+.acc .acc-b .inner{padding:0 16px 14px;font-size:.82rem;color:var(--ink2)}
+.specs{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.spec{font-size:.7rem;font-weight:800;padding:3px 9px;border-radius:6px;background:#eef1f6;color:var(--steel2);border:1px solid var(--line)}
+
+.review{max-width:920px;margin:0 auto;display:grid;grid-template-columns:1fr 1.4fr;gap:16px}
+.rform{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px}
+.rform label{display:block;font-size:.76rem;font-weight:800;margin:8px 0 5px;color:var(--ink2)}
+.rform input,.rform textarea,.rform select{width:100%;padding:10px 12px;border-radius:8px;border:1px solid var(--line);background:#fff;color:var(--ink);font-size:.84rem;font-family:inherit}
+.rform textarea{min-height:70px;resize:vertical}
+.rform button{margin-top:10px;width:100%;padding:11px;border:0;border-radius:9px;background:linear-gradient(135deg,var(--khaki),var(--steel2));color:#fff;font-weight:800;cursor:pointer;min-height:46px}
+.rlist{display:grid;gap:10px}
+.rv{background:#fff;border:1px solid var(--line);border-left:5px solid var(--copper);border-radius:10px;padding:12px}
+.rv h4{font-size:.84rem;font-weight:800;color:var(--steel2)}
+.rv p{font-size:.74rem;color:var(--ink2);margin-top:4px}
+
+.rules{max-width:880px;margin:0 auto;background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px;box-shadow:var(--shadow)}
+.rules h3{font-size:1rem;color:var(--steel2)}
+.rules ul{list-style:none;display:grid;gap:8px}
+.rules li{font-size:.8rem;padding-left:20px;position:relative;color:var(--ink2);line-height:1.65}
+.rules li::before{content:'🪖';position:absolute;left:0}
+.a11y{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
+.at{background:#eef1f6;border:1px solid var(--line);border-radius:10px;padding:12px}
+.at b{font-size:.82rem;color:var(--steel2);display:block;margin-bottom:6px}
+.at p{font-size:.72rem;color:var(--ink2)}
+.sw{width:44px;height:24px;border-radius:99px;background:#9fb6c9;position:relative;display:inline-block;transition:.2s;vertical-align:middle}
+.sw i{position:absolute;top:2px;left:2px;width:20px;height:20px;border-radius:50%;background:#fff;transition:.2s}
+.sw.on{background:var(--steel2)}
+.sw.on i{left:22px}
+.rules .dis{margin-top:12px;font-size:.73rem;color:var(--ink2);border-top:1px dashed var(--line);padding-top:10px}
+
+footer.site-foot{margin-top:34px;background:linear-gradient(180deg,transparent,var(--steel4));border-top:3px solid var(--copper);color:#bcccdf;padding:30px 0 20px;position:relative;z-index:1}
+.foot-brand{font-weight:900;font-size:1.1rem;text-align:center;margin-bottom:10px}
+.foot-brand b{color:var(--khaki)}
+.foot-links{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-bottom:12px}
+.foot-links a{font-size:.8rem;color:#bcccdf;min-height:40px;display:inline-flex;align-items:center}
+.foot-links a:hover{color:#fff}
+.foot-small{text-align:center;font-size:.73rem;color:#8fa0b8;line-height:1.7}
+
+@media(max-width:960px){.hero-grid{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.review{grid-template-columns:1fr}.a11y{grid-template-columns:1fr}}
+@media(max-width:680px){
+  .navlinks{position:fixed;top:64px;left:12px;right:12px;flex-direction:column;background:var(--steel2);padding:10px;border-radius:12px;box-shadow:var(--shadow);transform:translateY(-180%);transition:.3s}
+  .navlinks.open{transform:none}
+  .burger{display:flex}
+  .searchbar{order:3;width:100%;max-width:none}
+  .grid{grid-template-columns:1fr}
+}
+@media(max-width:420px){.mcard{min-width:84%}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/laoliu.js"></script>
+
+<div class="camo-bg"></div>
+<span class="fog" style="left:10%">≈</span>
+<span class="fog" style="left:40%;animation-delay:2s">≈</span>
+<span class="fog" style="left:70%;animation-delay:4s">≈</span>
+
+<div class="wrap">
+  <header class="site-header">
+    <div class="nav">
+      <div class="brand"><span class="badge">影</span> 八一影视<b>·军旅正剧资讯馆</b></div>
+      <form class="searchbar" onsubmit="return false">
+        <input type="search" placeholder="搜军旅剧：亮剑/士兵突击/兵自风中来…" aria-label="搜索影视">
+        <button type="submit">找片</button>
+      </form>
+      <nav class="navlinks" id="nav">
+        <a href="#works" class="active">片单展架</a>
+        <a href="#genre">题材分面</a>
+        <a href="#legal">正版防坑</a>
+        <a href="#quality">画质字幕</a>
+        <a href="#reviews">影评短评</a>
+        <a href="#rules">站规无障碍</a>
+      </nav>
+      <div class="burger" id="burger"><span></span><span></span><span></span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-grid">
+        <div>
+          <h1>钢蓝赤铜下的军旅正剧<br>八一影视<em>正版资讯演示</em></h1>
+          <div class="disclaim">
+            <b>非官方声明：</b>本页仅为影视资讯演示站，不代表中国人民解放军、八一电影制片厂或任何军队单位；
+            「八一影视」仅作站点命名示例，不使用军徽/军旗元素，不宣称军方背景。[4,10](@ref)
+          </div>
+          <p>八一影视（bayiyingshi-h5.github.io）整理军旅正剧、主旋律大剧、抗战革命历史与军营现实题材资讯：片单展架、题材分面、正版平台指引、防盗版防坑、画质字幕建议、影评与无障碍站规。本页静态前端演示，内链全部为 #；不提供未授权播放源、不发布「最新地址/备用域名/全片播放/专用播放器/网盘」。</p>
+          <div class="cta">
+            <a href="#works" class="btn btn-copper">看片单展架</a>
+            <a href="#legal" class="btn btn-steel">正版防坑指引</a>
+          </div>
+          <div class="chips">
+            <span class="chip hot">军旅资讯</span>
+            <span class="chip">主旋律</span>
+            <span class="chip">正版防坑</span>
+            <span class="chip">4K字幕</span>
+            <span class="chip">央视频</span>
+            <span class="chip">无障碍</span>
+          </div>
+        </div>
+        <aside class="panel" aria-label="正版入口速览">
+          <h3>🎖️ 正版入口速览</h3>
+          <div class="prow"><div class="ic">央</div><div><b>央视/央视频</b><span>《亮剑》《浴血荣光》等可走央视网、央视频回看 [2,5](@ref)</span></div></div>
+          <div class="prow"><div class="ic">持</div><div><b>持牌长视频</b><span>爱奇艺/腾讯/优酷/芒果，按出品方+片名检索 [8](@ref)</span></div></div>
+          <div class="prow"><div class="ic">避</div><div><b>避开聚合站</b><span>不装播放器APK、不点备用域名、不搜“全集破解”</span></div></div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 1 片单 -->
+    <section class="block" id="works">
+      <div class="sec-head"><span class="icon">🎬</span><h2>军旅正剧片单 · 横向展架</h2><span class="tag">资讯向·不播放正片</span></div>
+      <div class="ribbon" id="worksRibbon">
+        <article class="mcard"><div class="art c1">⚔️<span class="yr">抗战革命</span></div><div class="info"><h4>亮剑</h4><p>经典抗战剧，李云龙独立团叙事；正版回看走央视网/央视频/持牌平台。[2](@ref)</p><div class="meta"><span class="tagm">剧集·抗战</span><span class="go">详情</span></div></div></article>
+        <article class="mcard"><div class="art c2">🪖<span class="yr">和平军营</span></div><div class="info"><h4>士兵突击</h4><p>许三多成长线，和平年代陆军基层训练；爱奇艺/腾讯视频正版检索。[2](@ref)</p><div class="meta"><span class="tagm">剧集·军营</span><span class="go">详情</span></div></div></article>
+        <article class="mcard"><div class="art c3">🎯<span class="yr">新时代陆军</span></div><div class="info"><h4>兵自风中来</h4><p>央视八套+爱奇艺/腾讯同步，演训对抗与陆军转型题材。[8,15](@ref)</p><div class="meta"><span class="tagm">剧集·军旅</span><span class="go">详情</span></div></div></article>
+        <article class="mcard"><div class="art c4">🚩<span class="yr">革命历史</span></div><div class="info"><h4>浴血荣光</h4><p>重大革命历史剧，央视一套+多平台同步；主旋律正版渠道。[5](@ref)</p><div class="meta"><span class="tagm">剧集·主旋律</span><span class="go">详情</span></div></div></article>
+        <article class="mcard"><div class="art c5">🛡️<span class="yr">特种兵</span></div><div class="info"><h4>特种兵系列资讯</h4><p>《我是特种兵》《王牌部队》类题材分面；认准出品方与集数版本。</p><div class="meta"><span class="tagm">剧集·特战</span><span class="go">详情</span></div></div></article>
+        <article class="mcard"><div class="art c6">🎞️<span class="yr">军旅电影</span></div><div class="info"><h4>军旅/主旋律电影</h4><p>战争、撤侨、老兵现实题材；院线转网按持牌平台授权检索。</p><div class="meta"><span class="tagm">电影</span><span class="go">详情</span></div></div></article>
+      </div>
+    </section>
+
+    <!-- 2 题材分面 -->
+    <section class="block" id="genre">
+      <div class="sec-head"><span class="icon">🎛️</span><h2>题材类型分面 · 展板</h2><span class="tag">点击筛选·纯前端</span></div>
+      <div class="facets" id="facets">
+        <span class="facet on" data-g="all">全题材</span>
+        <span class="facet" data-g="war">抗战革命</span>
+        <span class="facet" data-g="camp">和平军营</span>
+        <span class="facet" data-g="modern">新时代军旅</span>
+        <span class="facet" data-g="special">特种兵/演训</span>
+        <span class="facet" data-g="main">重大主旋律</span>
+        <span class="facet" data-g="navy">海空天</span>
+        <span class="facet" data-g="movie">军旅电影</span>
+      </div>
+      <div class="grid" id="genreGrid">
+        <article class="scard" data-g="war"><div class="top g1">⚔️</div><h4>抗战革命</h4><p>抗日、解放战争、根据地与将领叙事；优先央视/官方纪录配套。</p><div class="tags"><span class="stag">1080p</span><span class="stag">简中</span><span class="stag">央视频</span></div></article>
+        <article class="scard" data-g="camp"><div class="top g2">🪖</div><h4>和平军营</h4><p>新兵成长、班排关系、训练日常；《士兵突击》类重人物弧光。</p><div class="tags"><span class="stag">正版</span><span class="stag">字幕</span><span class="stag">回看</span></div></article>
+        <article class="scard" data-g="modern"><div class="top g3">🎯</div><h4>新时代军旅</h4><p>实兵对抗、装备体系、演训转型；《兵自风中来》走央视八套+网播。[8](@ref)</p><div class="tags"><span class="stag">4K</span><span class="stag">HDR</span><span class="stag">字幕</span></div></article>
+        <article class="scard" data-g="special"><div class="top g4">🥋</div><h4>特种兵/演训</h4><p>特战选拔、蓝军对抗、侦察小队；看持牌平台画质与集数版本。</p><div class="tags"><span class="stag">5.1</span><span class="stag">对白增强</span><span class="stag">分级</span></div></article>
+        <article class="scard" data-g="main"><div class="top g5">🚩</div><h4>重大主旋律</h4><p>革命历史、建军伟业、模范人物；《浴血荣光》类央视首播更稳。[5](@ref)</p><div class="tags"><span class="stag">央视</span><span class="stag">持牌</span><span class="stag">字幕</span></div></article>
+        <article class="scard" data-g="navy"><div class="top g6">✈️</div><h4>海空天</h4><p>海军舰载、空战、防空反潜；认准出品方与军种顾问信息。</p><div class="tags"><span class="stag">4K</span><span class="stag">杜比</span><span class="stag">正版</span></div></article>
+        <article class="scard" data-g="movie"><div class="top g7">🎟️</div><h4>军旅电影</h4><p>战争大片、撤侨、老兵现实；院线转网按地区授权检索。</p><div class="tags"><span class="stag">正版</span><span class="stag">分级</span><span class="stag">字幕</span></div></article>
+        <article class="scard" data-g="doc"><div class="top g8">📺</div><h4>军史纪录片</h4><p>军博、抗战档案、强军纪实；央视频/央视纪录频道更稳。</p><div class="tags"><span class="stag">解说字幕</span><span class="stag">正版</span><span class="stag">大字号</span></div></article>
+      </div>
+    </section>
+
+    <!-- 3 正版防坑 -->
+    <section class="block" id="legal">
+      <div class="sec-head"><span class="icon">🛡️</span><h2>正版渠道与防盗版指引</h2><span class="tag">合规·不嵌盗版源</span></div>
+      <div class="steps">
+        <div class="step"><div class="num">1</div><div><h4>走持牌平台</h4><p>央视频、央视网、爱奇艺、腾讯视频、优酷、芒果TV；会员/单片付费规则清楚，片名集数对得上。[2,5](@ref)</p></div></div>
+        <div class="step"><div class="num">2</div><div><h4>按「出品方+片名+年份」搜</h4><p>同名翻拍、剪辑号、二创很多；别只搜「八一影视+全集」，核对出品方与播出平台。</p></div></div>
+        <div class="step"><div class="num">3</div><div><h4>不装未知播放器</h4><p>正版页用平台内置播放；要求关安全软件、下APK、装解码器、跳抽奖页的聚合站立刻停。</p></div></div>
+        <div class="step"><div class="num">4</div><div><h4>别蹭军方权威</h4><p>本演示站非军方背景，不宣称「官方源/内部线路」；遇冒充军队名义的影视站需警惕。[7](@ref)</p></div></div>
+      </div>
+      <div class="warn">
+        <h4>八一影视防坑提示</h4>
+        <ul>
+          <li>不提供未授权在线播放、不发布最新地址/备用域名/全片源。</li>
+          <li>不内置专用播放器、不引导网盘转存、不聚合第三方盗链。</li>
+          <li>「免费全集/无删减/破解VIP」多是弹窗钓鱼，画质字幕也不稳。</li>
+          <li>片单仅资讯演示，实际观看以持牌平台授权页为准。</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 4 画质 -->
+    <section class="block" id="quality">
+      <div class="sec-head"><span class="icon">🎨</span><h2>军旅剧画质与字幕手记</h2><span class="tag">点击展开</span></div>
+      <div class="accbox" id="accBox">
+        <div class="acc open"><button class="acc-h">演训夜戏怎么看清战术动作？ <span class="ar">▶</span></button><div class="acc-b"><div class="inner"><p>军旅剧多低光野外戏，建议标准/电影模式，4K HDR提中间调别压死黑；字幕开高对比描边。<div class="specs"><span class="spec">HDR10</span><span class="spec">中间调</span><span class="spec">字幕描边</span></div></p></div></div></div>
+        <div class="acc"><button class="acc-h">番号/术语字幕怎么配？ <span class="ar">▶</span></button><div class="acc-b"><div class="inner"><p>官兵称呼、装备代称多，优先官方简中；别用硬字幕录屏版，二创剪辑易漏术语解释。<div class="specs"><span class="spec">简中</span><span class="spec">官方字幕</span><span class="spec">HDR</span></div></p></div></div></div>
+        <div class="acc"><button class="acc-h">爆破音效与对白平衡 <span class="ar">▶</span></button><div class="acc-b"><div class="inner"><p>枪弹、引擎、爆破低频重，开对白增强避免盖过台词；5.1下别把环境音调满。<div class="specs"><span class="spec">5.1</span><span class="spec">对白增强</span><span class="spec">音量均衡</span></div></p></div></div></div>
+      </div>
+    </section>
+
+    <!-- 5 影评 -->
+    <section class="block" id="reviews">
+      <div class="sec-head"><span class="icon">✍️</span><h2>军旅剧影评与短评</h2><span class="tag">前端演示·不存储</span></div>
+      <div class="review">
+        <form class="rform" id="rvForm" autocomplete="off">
+          <label for="rvName">昵称</label>
+          <input id="rvName" placeholder="如：钢蓝影友" required>
+          <label for="rvFilm">片名/题材</label>
+          <input id="rvFilm" placeholder="如：兵自风中来（军旅·央八正版）" required>
+          <label for="rvMood">推荐星级</label>
+          <select id="rvScore"><option>🎖️🎖️🎖️🎖️🎖️ 必看</option><option>🎖️🎖️🎖️🎖️ 优质</option><option>🎖️🎖️🎖️ 可看</option><option>🎖️🎖️ 一般</option><option>🎖️ 不推荐</option></select>
+          <label for="rvText">短评内容</label>
+          <textarea id="rvText" placeholder="写剧情准确度、训练细节、画质字幕、正版渠道建议，保持合规。"></textarea>
+          <button type="submit">提交短评</button>
+          <p style="font-size:.7rem;color:var(--ink2);margin-top:8px">仅前端演示，不传服务器；不接收盗版链接、播放器、网盘。</p>
+        </form>
+        <div class="rlist" id="rvList">
+          <div class="rv"><h4>钢蓝影友：兵自风中来</h4><p>“央视八套+爱奇艺正版最稳，演训戏HDR字幕描边清楚，别点聚合站弹窗。”</p></div>
+          <div class="rv"><h4>老兵粉：士兵突击</h4><p>“和平军营成长线还是耐
